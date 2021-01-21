@@ -1,0 +1,145 @@
+ul {padding: 0;}
+li {list-style: none}
+p, h1, h2, h3, h4, ul, ol, body, button {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* test */
+}
+
+a, a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.flex-elem {display: flex;}
+.just-cont {justify-content: space-between;}
+.mx-auto {margin: 0 auto;}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* higher standard styles*/
+
+/* fonts */
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* --- main styles --- */
+/* -==--==--==- header -==--==--==- */
+header {
+    background-color: #c6f1ff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 26px;
+    padding: 15px 0;
+}
+
+/* -==--==--==- main page -==--==--==- */
+
+.main-page {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+/* --- map styles --- */
+.map {
+    width: 70%;
+    max-width: 1140px;
+
+}
+.map img {
+    width: 100%;
+}
+
+/* --- info about place chosen at map styles ---*/
+
+.info-map {
+    width: 30%;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: 2px solid #657d88;
+    border-right: none;
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ul with items */
+.items-info-map {
+    padding: 5px 0 5px 10px;
+    border: 2px solid #657d88;
+    border-right: none;
+    border-radius: 30px 0 0 30px;
+    background-color: #e7f1ff;
+}
+
+/* after елемент для всіх елементів списку крім last child */
+.item-info-map:not(:last-child):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 11px 0 0;
+    background-color: #c8ad00;
+    color: black;
+}
+
+
+/* visibility ===============*/
+
+.visibilityHidden {
+    visibility: hidden;
+}
+
+.visibilityVisible {
+    visibility: visible;
+}
+
+.btnChangeVisibility {
+    width: 160px;
+}
+
+/* -=-=-==-=-=-==-=-=--=-=-=-=-=-= test styles for changing content on page*/
+.testClass {
+    font-size: 40px;
+    color: red;
+}
+
+
+/* -==--==--==- footer -==--==--==-*/
+
+footer {
+    background-color: #c6f1ff;
+    display: flex;
+}
+
+.footer-list {
+    margin: 0 auto;
+}
+.footer-li-item {
+    margin: 0 10px;
+    padding: 15px 0;
+    font-size: 20px;
+    text-align: center;
+}
+.footer-a:hover {
+    color: #816c00;
+    transition: .4s;
+}

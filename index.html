@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Test - Розробка програмного додатку для моніторингу екології довкілля</title>
+</head>
+<body>
+<!-- header \/ -->
+<header class="cont-header">
+    <h1>Програмний додаток для моніторингу екології довкілля</h1>
+</header>
+
+
+<!-- main \/ -->
+<section class="container">
+    <div class="main-page">
+        <!-- map -->
+        <div class="map">
+            <img class="" src="img/cherkasy_map.jpg" alt="chk_map">
+        </div>
+
+        <!-- info map -->
+        <div class="info-map" id="infoItems">
+            <!-- <b> tag here for justify-content space between-->
+            <b></b>
+            <!-- ul with items -->
+            <ul class="items-info-map" >
+                <li class="item-info-map">
+                    Основні види екологічних загроз: <br>
+                    •	Забруднення атмосфери. <br>
+                    •	Забруднення та виснаження водних ресурсів. <br>
+                    •	Деградація грунту.
+                </li>
+                <li class="item-info-map" id="lolTest">
+                    Теоретико-методологічні засади та проблемні аспекти виявлення факторів поглиблення,
+                    розробки засобів і методів деактивації загроз і подолання проявів забруднення
+                    навколишнього середовища досліджували вітчизняні та зарубіжні вчені.
+                </li>
+                <li class="item-info-map">
+                    Мета роботи полягає у вивченні теорії і практики побудови систем моніторингу
+                    антропогенних викидів в навколишнє середовище.
+                </li>
+                <li class="item-info-map">
+                    Все вище означене підтверджує актуальність і необхідність впровадження
+                    автоматизованих рішень для раннього виявлення та оперативного реагування
+                    на екологічні проблеми.
+                </li>
+            </ul>
+            <b></b>
+
+        </div>
+
+    </div>
+    <button class="btnChangeVisibility" id="btnChangeHidden" onclick="hideItems('visibilityHidden')">
+        change visibility hidden</button>
+    <button class="btnChangeVisibility" id="btnChangeVisible" onclick="showItems('visibilityVisible')">
+        change visibility visible</button>
+    <button class="btnChangeVisibility" id="BtnClick">test e test tyt set se test</button>
+</section>
+
+
+<!-- footer \/ -->
+<footer>
+    <ul class="footer-list flex-elem">
+        <li class="footer-li-item"><a class="footer-a" href="#">About Us</a></li>
+        <li class="footer-li-item"><a class="footer-a" href="#">Countact Us</a></li>
+        <li class="footer-li-item"><a class="footer-a" href="#">CIBS UBS</a></li>
+        <li class="footer-li-item"><a class="footer-a" href="#">Personal Information</a></li>
+    </ul>
+</footer>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
