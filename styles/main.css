@@ -26,8 +26,6 @@ a, a:hover {
     padding: 0;
 }
 
-/* higher standard styles*/
-
 /* fonts */
 
 * {
@@ -59,10 +57,16 @@ header h1 {
 .map {
     width: 70%;
     max-width: 1140px;
+    max-height: 630px;
+    background: no-repeat url("../img/cherkasy_map.jpg");
+    background-size: 100% 100%; /* по висоті та по ширині розмір*/
+    min-height: 624px;
 
 }
-.map img {
+.imgMap {
+    position: relative; /* for the correct location of the buttons on the map */
     width: 100%;
+    height: 100%;
 }
 
 /* --- info about place chosen at map styles ---*/
@@ -90,6 +94,10 @@ header h1 {
     background-color: #e7f1ff;
 }
 
+.item-info-map {
+    font-size: 18px;
+}
+
 /* after елемент для всіх елементів списку крім last child */
 .item-info-map:not(:last-child):after {
     content: "";
@@ -114,6 +122,92 @@ header h1 {
 
 .btnChangeVisibility {
     width: 160px;
+}
+
+/* -=-=-=-==-=-=-=-=-=-=-=- styles for spans on map*/
+
+.span-btn {
+    position: absolute;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(206, 103, 93, 0.56);
+    border: 1px solid rgba(206, 103, 93, 0.56);
+    border-radius: 5px;
+    max-width: 140px;
+}
+.span-btn:hover {
+    transition: .3s;
+    background-color: rgba(206, 103, 93, 0.85);
+}
+.span-btn:after {
+    content: "•";
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 0;
+    line-height: 14px;
+    font-size: 24px;
+    background-color: #ffdc00;
+    color: black;
+}
+.left-align:after {
+    text-align: left;
+}
+.right-align:after {
+    text-align: right;
+}
+
+/* positions of buttons on the map */
+.smallTxtBtn {
+    font-size: 11px;
+}
+
+.firstBtn {
+    left: 89%;
+    top: 42%;
+}
+.secondBtn {
+    left: 83%;
+    top: 25%;
+}
+.thirdBtn {
+    left: 64%;
+    top: 14%;
+}
+.fourthBtn { /*отмєна*/
+    left: 10%;
+    top: 10%;
+}
+.fifthBtn { /*отмєна*/
+    left: 15%;
+    top: 85%;
+}
+.sixBtn { /*отмєна*/
+    left: 35%;
+    top: 35%;
+}
+.sevenBtn { /*отмєна*/
+    left: 70%;
+    top: 60%;
+}
+
+.eightBtn {
+    left: 83%;
+    top: 32%;
+}
+.nineBtn {
+    left: 90%;
+    top: 80%;
+}
+.tenBtn {
+    left: 55%;
+    top: 59%;
+}
+.elevenBtn {
+    left: 15%;
+    top: 40%;
 }
 
 /* -=-=-==-=-=-==-=-=--=-=-=-=-=-= test styles for changing content on page*/

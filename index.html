@@ -6,10 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <title>Test - Розробка програмного додатку для моніторингу екології довкілля</title>
+    <title>Програмний додаток для моніторингу екології довкілля</title>
 </head>
 <body>
 <!-- header \/ -->
@@ -22,8 +23,44 @@
 <section class="container">
     <div class="main-page">
         <!-- map -->
-        <div class="map">
-            <img class="" src="img/cherkasy_map.jpg" alt="chk_map">
+        <div class="map" style="min-width: 700px">
+            <div id="boxItemsMap" class="imgMap">
+                <span data-action="azot" id="firstBtn" class="span-btn firstBtn">
+                    ВАТ "АЗОТ"
+                </span>
+                <span data-action="cPlantChemReag" id="secondBtn" class="span-btn secondBtn smallTxtBtn">
+                    2 Черкаський завод хімічних реактивів
+                </span>
+                <span data-action="PATtemp" id="thirdBtn" class="span-btn thirdBtn">
+                    3 ПАТ "Темп"
+                </span>
+                <span data-action="Orizon" id="fourthBtn" class="span-btn fourthBtn">
+                    4 ДВО "Оризон" ОТМЄНА
+                </span>
+                <span data-action="CherkTara" id="fifthBtn" class="span-btn fifthBtn">
+                    5 ЗАТ "Черкаситара" ОТМЄНА
+                </span>
+                <span data-action="tobaccoFactory" id="sixBtn" class="span-btn sixBtn smallTxtBtn">
+                    6 ЗАТ "Лігетт-дукат-Україна" ОТМЄНА
+                </span>
+                <span data-action="Ros" id="sevenBtn" class="span-btn sevenBtn">
+                    7 АТ "Рось"
+                </span>
+                <span data-action="PaintFactoryAvrora" id="eightBtn" class="span-btn eightBtn smallTxtBtn">
+                    8 ТОВ "Черкаський лакофарбовий завод "Аврора"
+                </span>
+                <span data-action="busBogdan" id="nineBtn" class="span-btn nineBtn smallTxtBtn">
+                    9 ВАТ "Черкаський автобус "Богдан"
+                </span>
+                <span data-action="Vatfarm" id="enBtn" class="span-btn tenBtn">
+                    10 АТ "Ватфарм"
+                </span>
+                <span data-action="liqueurVodkaFactory" id="elevenBtn" class="span-btn elevenBtn smallTxtBtn">
+                    11 ТОВ "Черкаський лікеро-горілчаний завод"
+                </span>
+                <!-- here map as background image -->
+            </div>
+
         </div>
 
         <!-- info map -->
@@ -58,6 +95,7 @@
         </div>
 
     </div>
+<!-- buttons of testing js -->
     <button class="btnChangeVisibility" id="btnChangeHidden" onclick="hideItems('visibilityHidden')">
         change visibility hidden</button>
     <button class="btnChangeVisibility" id="btnChangeVisible" onclick="showItems('visibilityVisible')">
