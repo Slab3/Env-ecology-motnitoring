@@ -44,6 +44,11 @@ header h1 {
     padding: 15px 0;
 }
 
+header h1 a:hover {
+    color: #6b5800;
+    transition: .4s;
+}
+
 /* -==--==--==- main page -==--==--==- */
 
 .main-page {
@@ -56,11 +61,11 @@ header h1 {
 /* --- map styles --- */
 .map {
     width: 70%;
-    max-width: 1140px;
-    max-height: 630px;
+    max-width: 1400px;
+    max-height: 840px;
     background: no-repeat url("../img/cherkasy_map.jpg");
     background-size: 100% 100%; /* по висоті та по ширині розмір*/
-    min-height: 624px;
+    min-height: 780px;
 
 }
 .imgMap {
@@ -95,7 +100,10 @@ header h1 {
 }
 
 .item-info-map {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 22px;
+    padding-right: 7px;
+
 }
 
 /* after елемент для всіх елементів списку крім last child */
@@ -131,8 +139,8 @@ header h1 {
     font-size: 15px;
     padding: 5px;
     cursor: pointer;
-    background-color: rgba(206, 103, 93, 0.56);
-    border: 1px solid rgba(206, 103, 93, 0.56);
+    background-color: rgba(206, 103, 93, 0.64);
+    border: 1px solid rgba(206, 103, 93, 0.64);
     border-radius: 5px;
     max-width: 140px;
 }
@@ -159,63 +167,45 @@ header h1 {
     text-align: right;
 }
 
+.textCenter {
+    text-align: center;
+}
+
 /* positions of buttons on the map */
 .smallTxtBtn {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .firstBtn {
-    left: 89%;
-    top: 42%;
+    left: 74%;
+    top: 81%;
 }
 .secondBtn {
-    left: 83%;
-    top: 25%;
+    left: 54%;
+    top: 68%;
 }
 .thirdBtn {
-    left: 64%;
-    top: 14%;
-}
-.fourthBtn { /*отмєна*/
-    left: 10%;
-    top: 10%;
-}
-.fifthBtn { /*отмєна*/
-    left: 15%;
-    top: 85%;
-}
-.sixBtn { /*отмєна*/
-    left: 35%;
-    top: 35%;
-}
-.sevenBtn { /*отмєна*/
-    left: 70%;
+    left: 71%;
     top: 60%;
 }
-
-.eightBtn {
-    left: 83%;
-    top: 32%;
+.fourthBtn {
+    left: 26%;
+    top: 56%;
 }
-.nineBtn {
-    left: 90%;
-    top: 80%;
+.fifthBtn {
+    left: 43%;
+    top: 20%;
 }
-.tenBtn {
-    left: 55%;
-    top: 59%;
-}
-.elevenBtn {
-    left: 15%;
-    top: 40%;
+.sixBtn {
+    left: 85%;
+    top: 33%;
 }
 
-/* -=-=-==-=-=-==-=-=--=-=-=-=-=-= test styles for changing content on page*/
-.testClass {
-    font-size: 40px;
-    color: red;
-}
 
+/* -=-=-==-=-=-==-=-=--=-=-=-=-=-= color red output*/
+.colorRed {
+    color: #c20000;
+}
 
 /* -==--==--==- footer -==--==--==-*/
 
@@ -228,7 +218,7 @@ footer {
     margin: 0 auto;
 }
 .footer-li-item {
-    margin: 0 10px;
+    margin: 0 15px;
     padding: 15px 0;
     font-size: 20px;
     text-align: center;
