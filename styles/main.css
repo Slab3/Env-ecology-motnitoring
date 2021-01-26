@@ -62,7 +62,7 @@ header h1 a:hover {
 .map {
     width: 70%;
     max-width: 1400px;
-    max-height: 840px;
+    max-height: 720px;
     background: no-repeat url("../img/cherkasy_map.jpg");
     background-size: 100% 100%; /* по висоті та по ширині розмір*/
     min-height: 720px;
