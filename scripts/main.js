@@ -195,8 +195,6 @@ class BoxItemsMap {
 new BoxItemsMap(boxItemsMap);
 
 
-
-
 let wrapperTextStart = `
 <b></b>
     <ul class="items-info-map" >`;
