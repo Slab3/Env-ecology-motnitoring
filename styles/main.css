@@ -72,7 +72,7 @@ header h1 a:hover {
     max-height: 720px;
     min-height: 720px;
     background: no-repeat url("../img/cherkasy_map.jpg");
-    background-size: 100% 100%; /* по висоті та по ширині розмір*/
+    background-size: 100% 100%; /* for height size and width*/
 
 
 }
@@ -83,7 +83,6 @@ header h1 a:hover {
 }
 
 /* --- info about place chosen at map styles ---*/
-
 .info-map {
     transition: .3s;
     width: 30%;
@@ -115,7 +114,7 @@ header h1 a:hover {
 
 }
 
-/* after елемент для всіх елементів списку крім last child */
+/* after for every element within last child */
 .item-info-map:not(:last-child):after {
     content: "";
     display: block;
