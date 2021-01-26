@@ -286,4 +286,5 @@ footer li:last-child {
     line-height: 24px;
     letter-spacing: 0.06em;
     color: #606060;
+    cursor: default;
 }

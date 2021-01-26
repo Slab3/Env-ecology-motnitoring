@@ -1,11 +1,11 @@
-// hidding sidebar with info
+// hiding sidebar with info
 const infoItemsVariable = document.getElementById("infoItems").children.length;
 
 function hideItems(elClass) {
     for (let i = 0; i <infoItemsVariable; i++) {
         document.getElementsByTagName("div")[3].className = "visibilityHidden hideSidebar";
         document.getElementsByTagName("div")[1].className = "map fullSizeMap"; //styles map when hidden
-    } // if needs to set classes for every element: instead of [0] must be [i].
+    }
     elClass.className = "items-info-map visibilityVisible"
 }
 
@@ -18,7 +18,7 @@ function showItems(elClass) {
 }
 
 // map working space : ---------------------------------------------------------- : \/
-// on click element with id "BtnClick" changing content inside of element with id infoItems
+// on click element with id "...Btn" changing content inside of element with id infoItems
 const infoItemsTxt = document.getElementById("infoItems");
 
 class BoxItemsMap {
@@ -206,26 +206,3 @@ let wrapperTextEnd = `
 <b></b>
 `;
 // working space : ---------------------------------------------------------- : /\
-
-// -=-================ test. makes every item with class "span-btn" like an button, and clickable,
-// on click changing content
-//
-// let elements = document.getElementsByClassName("span-btn");
-//
-// let myFunction = function() {
-//     infoItems.innerHTML = `
-//     <div>
-//         <span class="testClass">s223</span>
-//         <span>21314</span>
-//         <div class="test2">ne
-//             <div>
-//                 test final
-//             </div>
-//         </div>
-//     </div>
-//     `
-// };
-//
-// for (let i = 0; i < elements.length; i++) {
-//     elements[i].addEventListener('click', myFunction, false);
-// }
