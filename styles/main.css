@@ -63,9 +63,10 @@ header h1 a:hover {
     width: 70%;
     max-width: 1400px;
     max-height: 720px;
+    min-height: 720px;
     background: no-repeat url("../img/cherkasy_map.jpg");
     background-size: 100% 100%; /* по висоті та по ширині розмір*/
-    min-height: 720px;
+
 
 }
 .imgMap {
@@ -134,9 +135,9 @@ header h1 a:hover {
     text-align: center;
 }
 .btnChangeVisibility {
-    width: 220px;
+    width: 240px;
     padding: 2px 4px;
-    /*border-radius: 15px 0 0 15px;*/
+    font-size: 14px;
     border: 1px solid lightgrey;
     background-color: #e7f1ff;
     outline: none;
@@ -192,7 +193,7 @@ header h1 a:hover {
     background-color: rgba(206, 103, 93, 0.64);
     border: 1px solid rgba(206, 103, 93, 0.64);
     border-radius: 5px;
-    max-width: 140px;
+    max-width: 150px;
 }
 .span-btn:hover {
     transition: .3s;
@@ -237,16 +238,20 @@ header h1 a:hover {
     top: 60%;
 }
 .fourthBtn {
-    left: 26%;
-    top: 56%;
+    left: 25%;
+    top: 57%;
 }
 .fifthBtn {
     left: 43%;
-    top: 20%;
+    top: 22%;
 }
 .sixBtn {
     left: 85%;
     top: 33%;
+}
+.sevenBtn {
+    left: 60%;
+    top: 7%;
 }
 
 
@@ -274,4 +279,11 @@ footer {
 .footer-a:hover {
     color: #816c00;
     transition: .4s;
+}
+
+footer li:last-child {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    color: #606060;
 }
