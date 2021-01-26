@@ -1,25 +1,25 @@
+// hidding sidebar with info
 const infoItemsVariable = document.getElementById("infoItems").children.length;
 
 function hideItems(elClass) {
     for (let i = 0; i <infoItemsVariable; i++) {
-        document.getElementsByTagName("ul")[0].className = "items-info-map visibilityHidden";
+        document.getElementsByTagName("div")[3].className = "visibilityHidden hideSidebar";
+        document.getElementsByTagName("div")[1].className = "map fullSizeMap"; //styles map when hidden
     } // if needs to set classes for every element: instead of [0] must be [i].
     elClass.className = "items-info-map visibilityVisible"
 }
 
 function showItems(elClass) {
     for (let i = 0; i <infoItemsVariable; i++) {
-        document.getElementsByTagName("ul")[0].className = "items-info-map visibilityVisible";
+        document.getElementsByTagName("div")[3].className = "info-map visibilityVisible";
+        document.getElementsByTagName("div")[1].className = "map"; // styles for map when visible
     }
     elClass.className = "items-info-map visibilityHidden"
 }
 
-// working space : ---------------------------------------------------------- : \/
+// map working space : ---------------------------------------------------------- : \/
 // on click element with id "BtnClick" changing content inside of element with id infoItems
-const BtnTestClick = document.getElementById("BtnClick");
 const infoItemsTxt = document.getElementById("infoItems");
-// buttons map:
-
 
 class BoxItemsMap {
     constructor(elem) {
@@ -28,7 +28,7 @@ class BoxItemsMap {
     }
 
     //1
-    azot() {
+     azot() {
         infoItemsTxt.innerHTML = wrapperTextStart +
 `<li class="item-info-map textCenter">
     ПАТ "Азот" - Першотравнева, 72, Черкаси, Черкаська область, 18000
@@ -45,12 +45,13 @@ class BoxItemsMap {
     мінеральних добрив, іонообмінних смол, капролактаму та іншої хімічної продукції. Його будівництво 
     розпочалось у 1962 році, а 14 березня 1965 року колективом видано перший аміак.
 </li>`
-            + wrapperTextEnd
+            + wrapperTextEnd;
+        showItems() // if an element was hidden when we call it, it will become visible
     }
     //2
     silkFactory() {
         infoItemsTxt.innerHTML = wrapperTextStart +
-`<li class="item-info-map">
+`<li class="item-info-map textCenter">
     ПРАТ "Черкаський Шовковий Комбінат" - вулиця В'ячеслава Чорновола, 170, Черкаси, Черкаська область, 18000
 </li>
 <li class="item-info-map">
@@ -69,12 +70,13 @@ class BoxItemsMap {
     Будівництво комбінату почалося в січні 1965 року. 8 грудня 1967 року було введено в експлуатацію ткацьке 
     виробництва і комбінат випустив перші метри шовкової тканини, з яких і почалася подальша робота комбінату.
 </li>`
-            + wrapperTextEnd
+            + wrapperTextEnd;
+        showItems()
     }
     //3
     tec() {
         infoItemsTxt.innerHTML = wrapperTextStart +
-`<li class="item-info-map">Черкаська ТЕЦ (Хімволокно) - проспект Хіміків, 76, Черкаси, Черкаська область, 18000</li>
+`<li class="item-info-map textCenter">Черкаська ТЕЦ (Хімволокно) - проспект Хіміків, 76, Черкаси, Черкаська область, 18000</li>
 <li class="item-info-map">
     Востаннє ТЕЦ надала інформацію про викиди в 2020 році, та тоді валовий викид склав <i class="colorRed">16000,1</i> т.
     <br> В 2017 році: 
@@ -90,12 +92,13 @@ class BoxItemsMap {
     Черкаська ТЕЦ постачає гарячу воду та опалює близько 3 млн квадратних метрів житлової площі у 800 будинках 
     жителів м. Черкаси
 </li>`
-            + wrapperTextEnd
+            + wrapperTextEnd;
+        showItems()
     }
     //4
     instrumentFactory() {
-        infoItemsTxt.innerHTML = wrapperTextStart +
-`<li class="item-info-map">
+        infoItemsTxt.innerHTML =  wrapperTextStart +
+`<li class="item-info-map textCenter">
     ПАТ "Приладобудівний завод" - переулок. Чкалова, 15, Черкаси, Черкаська область, 18000
 </li>
 <li class="item-info-map">
@@ -112,12 +115,13 @@ class BoxItemsMap {
     електричних побутових приладів. •Механічне оброблення металевих виробів. •Виробництво інструментів. 
     •Виробництво обладнання зв’язку. •Електромонтажні роботи. •Обслуговування систем безпеки.
 </li>`
-            + wrapperTextEnd
+            + wrapperTextEnd;
+        showItems()
     }
     //5
     softTorg() {
         infoItemsTxt.innerHTML = wrapperTextStart +
-`<li class="item-info-map">
+`<li class="item-info-map textCenter">
     ТОВ "СОФТ ТОРГ" - провулок Богдана Хмельницького, 2А, Водяники, Черкаська область, 20232
 </li>
 <li class="item-info-map">
@@ -131,12 +135,13 @@ class BoxItemsMap {
 <!--<li class="item-info-map">-->
 <!--    -->
 <!--</li>-->`
-            + wrapperTextEnd
+            + wrapperTextEnd;
+        showItems()
     }
     //6
     PaintFactoryAvrora() {
         infoItemsTxt.innerHTML = wrapperTextStart +
-`<li class="item-info-map">
+`<li class="item-info-map textCenter">
     Аврора - вулиця Будіндустрії, 3, Черкаси, Черкаська область, 18000
 </li>
 <li class="item-info-map">
@@ -153,7 +158,8 @@ class BoxItemsMap {
 напівфабрикатні лаки ТМ «Аврора»
 декоративні лакофарбові матеріал ТМ «МІКС color» (до 20 віддітнків)
 </li>`
-            + wrapperTextEnd
+            + wrapperTextEnd;
+        showItems()
     }
 
 
@@ -166,13 +172,6 @@ class BoxItemsMap {
 }
 new BoxItemsMap(boxItemsMap);
 
-
-
-
-// BtnTestClick.onclick = function () {
-//     infoItemsTxt.innerHTML = wrapperTextStart + `eblan` +wrapperTextEnd
-//
-// };
 
 
 

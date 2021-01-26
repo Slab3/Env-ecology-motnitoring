@@ -1,0 +1,14 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 5px auto;
+}
+td {
+    border: 1px solid black;
+    padding: 4px 14px;
+}
+
+.firstRowT {
+    background-color: #f6fdff;
+}
