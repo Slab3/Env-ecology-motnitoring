@@ -10,7 +10,6 @@
     }
 
     /*positions*/
-
     .secondBtn {
         left: 52%;
         top: 67%;
@@ -79,47 +78,41 @@
         font-size: 16px;
     }
 
-}
-
-@media only screen and (max-width: 980px) {
-
-    .item-info-map {
-        font-size: 15px;
-    }
-
-    header h1 {
-        font-size: 22px;
+    .footer-a {
+        font-size: 17px;
     }
 
 }
 
 @media only screen and (max-width: 980px) {
-
     .item-info-map {
         font-size: 15px;
     }
-
     header h1 {
         font-size: 22px;
     }
-
 }
-/*phones*/
 
+@media only screen and (max-width: 980px) {
+    .item-info-map {
+        font-size: 15px;
+    }
+    header h1 {
+        font-size: 22px;
+    }
+}
+
+/*mobile devises on API Map*/
 @media only screen and (max-width: 480px) {
-
     .footer-a {
         font-size: 16px;
     }
-
     #mapFrame {
         height: 480px;
     }
-
     .footer-li-item {
         margin: 0 12px;
     }
-
 }
 
 @media only screen and (max-width: 400px) {
@@ -133,11 +126,9 @@
 
 
 @media only screen and (max-width: 350px) {
-
     .footer-a {
         font-size: 12px;
     }
-
     .footer-li-item {
         margin: 0 6px;
     }
