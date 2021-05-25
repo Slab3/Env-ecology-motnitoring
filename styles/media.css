@@ -93,4 +93,28 @@
 
 }
 
+@media only screen and (max-width: 980px) {
+
+    .item-info-map {
+        font-size: 15px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+}
+/*phones*/
+
+@media only screen and (max-width: 480px) {
+
+    .footer-a {
+        font-size: 15px;
+    }
+
+    #mapFrame {
+        height: 480px;
+    }
+
+}
 
