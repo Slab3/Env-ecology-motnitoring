@@ -109,12 +109,37 @@
 @media only screen and (max-width: 480px) {
 
     .footer-a {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     #mapFrame {
         height: 480px;
     }
 
+    .footer-li-item {
+        margin: 0 12px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .footer-a {
+        font-size: 12px;
+    }
+    .footer-li-item {
+        margin: 0 9px;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+
+    .footer-a {
+        font-size: 12px;
+    }
+
+    .footer-li-item {
+        margin: 0 6px;
+    }
 }
 
