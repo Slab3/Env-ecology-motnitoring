@@ -43,6 +43,9 @@
         border: 1px solid black;
         padding: 3px 12px;
     }
+    #mapFrame {
+        height: 540px;
+    }
 
 }
 
