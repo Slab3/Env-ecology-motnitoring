@@ -85,6 +85,8 @@ header h1 a:hover {
 /* --- info about place chosen at map styles ---*/
 .info-map {
     transition: .3s;
+    overflow-y: auto;
+    height: 720px;
     width: 30%;
     padding-left: 10px;
     margin-left: 10px;
@@ -125,6 +127,14 @@ header h1 a:hover {
     color: black;
 }
 
+/* graphics with info for last 24 hrs ( iframe )*/
+.graphics {
+    text-align: center;
+}
+.graphics iframe {
+    width: 250px;
+    height: 200px;
+}
 
 /* visibility ===============*/
 

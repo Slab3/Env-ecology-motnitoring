@@ -44,6 +44,12 @@ class BoxItemsMap {
     Черкаське відкрите акціонерне товариство "Азот" - одне з найбільших  підприємств в Україні з виробництва 
     мінеральних добрив, іонообмінних смол, капролактаму та іншої хімічної продукції. Його будівництво 
     розпочалось у 1962 році, а 14 березня 1965 року колективом видано перший аміак.
+</li>
+<li class="graphics">
+    <p>Інформація з найближчого датчика забрудненості повітря:</p>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=2&amp;var-node=62467" frameborder="0"></iframe>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=1&amp;var-node=62467" frameborder="0"></iframe>
+    <p>"Точні значення" та "Середні значення"</p>
 </li>`
             + wrapperTextEnd;
         showItems() // if an element was hidden when we call it, it will become visible
@@ -69,6 +75,12 @@ class BoxItemsMap {
 <li class="item-info-map">
     Будівництво комбінату почалося в січні 1965 року. 8 грудня 1967 року було введено в експлуатацію ткацьке 
     виробництва і комбінат випустив перші метри шовкової тканини, з яких і почалася подальша робота комбінату.
+</li>
+<li class="graphics">
+    <p>Інформація з найближчого датчика забрудненості повітря:</p>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=2&amp;var-node=62467" frameborder="0"></iframe>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=1&amp;var-node=62467" frameborder="0"></iframe>
+    <p>"Точні значення" та "Середні значення"</p>
 </li>`
             + wrapperTextEnd;
         showItems()
@@ -91,6 +103,12 @@ class BoxItemsMap {
     у теплі та енергії.
     Черкаська ТЕЦ постачає гарячу воду та опалює близько 3 млн квадратних метрів житлової площі у 800 будинках 
     жителів м. Черкаси
+</li>
+<li class="graphics">
+    <p>Інформація з найближчого датчика забрудненості повітря:</p>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=2&amp;var-node=51736" frameborder="0"></iframe>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=1&amp;var-node=51736" frameborder="0"></iframe>
+    <p>"Точні значення" та "Середні значення"</p>
 </li>`
             + wrapperTextEnd;
         showItems()
@@ -114,6 +132,12 @@ class BoxItemsMap {
     Завод пропонує такі послуги: •Виробництво електродвигунів, генераторів і трансформаторів. •Виробництво 
     електричних побутових приладів. •Механічне оброблення металевих виробів. •Виробництво інструментів. 
     •Виробництво обладнання зв’язку. •Електромонтажні роботи. •Обслуговування систем безпеки.
+</li>
+<li class="graphics">
+    <p>Інформація з найближчого датчика забрудненості повітря:</p>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=2&amp;var-node=50565" frameborder="0"></iframe>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=1&amp;var-node=50565" frameborder="0"></iframe>
+    <p>"Точні значення" та "Середні значення"</p>
 </li>`
             + wrapperTextEnd;
         showItems()
@@ -132,9 +156,12 @@ class BoxItemsMap {
     (ТОВ АПК «Маїс», ТОВ «Золотоніські сади», ТОВ «Голден», ТОВ  Жашківський  кінний завод». ТОВ «Софт Торг», ТОВ ім.  Шевченка, ТОВ ВКВ «Октан», 
     ПОСП «Уманський тепличний комбінат» та інші.
 </li>
-<!--<li class="item-info-map">-->
-<!--    -->
-<!--</li>-->`
+<li class="graphics">
+    <p>Інформація з найближчого датчика забрудненості повітря:</p>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=2&amp;var-node=46903" frameborder="0"></iframe>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=1&amp;var-node=46903" frameborder="0"></iframe>
+    <p>"Точні значення" та "Середні значення"</p>
+</li>`
             + wrapperTextEnd;
         showItems()
     }
@@ -157,6 +184,12 @@ class BoxItemsMap {
 матеріали промислового значення ТМ «Аврора»
 напівфабрикатні лаки ТМ «Аврора»
 декоративні лакофарбові матеріал ТМ «МІКС color» (до 20 віддітнків)
+</li>
+<li class="graphics">
+    <p>Інформація з найближчого датчика забрудненості повітря:</p>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=2&amp;var-node=51736" frameborder="0"></iframe>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=1&amp;var-node=51736" frameborder="0"></iframe>
+    <p>"Точні значення" та "Середні значення"</p>
 </li>`
             + wrapperTextEnd;
         showItems()
@@ -179,6 +212,12 @@ class BoxItemsMap {
     платоспроможності. Крім того на ринку збуту з кожним роком зростає конкуренція. Фінансові показники 
     господарства в великій мірі залежать від обсягу виробництва та реалізаційних цін на вироблену продукцію. 
     Суттєвий вплив на діяльність товариства має недосконала законодавча база, податкова політика держави.
+</li>
+<li class="graphics">
+    <p>Інформація з найближчого датчика забрудненості повітря:</p>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=2&amp;var-node=46741" frameborder="0"></iframe>
+    <iframe src="https://maps.sensor.community/grafana/d-solo/000000004/single-sensor-view?orgId=1&amp;panelId=1&amp;var-node=46741" frameborder="0"></iframe>
+    <p>"Точні значення" та "Середні значення"</p>
 </li>`
             + wrapperTextEnd;
         showItems()

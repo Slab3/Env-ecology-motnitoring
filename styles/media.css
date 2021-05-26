@@ -1,13 +1,21 @@
+@media only screen and (max-width: 1740px) {
+    .graphics iframe { width: 350px; }
+}
+
+
 @media only screen and (max-width: 1366px) {
     .map {
         max-width: 1100px;
         max-height: 624px;
         min-height: 624px;
     }
+    .info-map { height: 614px; }
 
     .item-info-map {
         font-size: 18px;
     }
+    .graphics iframe { width: 260px; }
+
 
     /*positions*/
     .secondBtn {
@@ -42,95 +50,56 @@
         border: 1px solid black;
         padding: 3px 12px;
     }
-    #mapFrame {
-        height: 540px;
-    }
+    #mapFrame { height: 540px; }
 
 }
 
 @media only screen and (max-width: 1200px) {
-    .item-info-map {
-        font-size: 16px;
-    }
-    .tablesNaming {
-        font-size: 17px;
-    }
+    .item-info-map { font-size: 16px; }
+    .tablesNaming { font-size: 17px; }
 }
 
 @media only screen and (max-width: 1080px) {
-    .item-info-map {
-        font-size: 15px;
-    }
-
-    header h1 {
-        font-size: 22px;
-    }
-
+    .item-info-map { font-size: 15px; }
+    header h1 { font-size: 22px; }
     /* tables concentration info page*/
-    table {
-        font-size: 15px;
-    }
+    table { font-size: 15px; }
     td {
         border: 1px solid black;
         padding: 2px 8px;
     }
-    .tablesNaming {
-        font-size: 16px;
-    }
+    .tablesNaming { font-size: 16px; }
+    .footer-a { font-size: 17px; }
 
-    .footer-a {
-        font-size: 17px;
-    }
+    .graphics iframe { width: 210px; }
 
 }
 
 @media only screen and (max-width: 980px) {
-    .item-info-map {
-        font-size: 15px;
-    }
-    header h1 {
-        font-size: 22px;
-    }
+    .item-info-map { font-size: 15px; }
+    header h1 { font-size: 22px; }
 }
 
 @media only screen and (max-width: 980px) {
-    .item-info-map {
-        font-size: 15px;
-    }
-    header h1 {
-        font-size: 22px;
-    }
+    .item-info-map { font-size: 15px; }
+    header h1 { font-size: 22px; }
 }
 
 /*mobile devises on API Map*/
 @media only screen and (max-width: 480px) {
-    .footer-a {
-        font-size: 16px;
-    }
-    #mapFrame {
-        height: 480px;
-    }
-    .footer-li-item {
-        margin: 0 12px;
-    }
+    .footer-a { font-size: 16px; }
+    #mapFrame { height: 480px; }
+    .footer-li-item { margin: 0 12px; }
 }
 
 @media only screen and (max-width: 400px) {
-    .footer-a {
-        font-size: 12px;
-    }
-    .footer-li-item {
-        margin: 0 9px;
-    }
+    .footer-a { font-size: 12px; }
+    .footer-li-item { margin: 0 9px; }
 }
 
 
 @media only screen and (max-width: 350px) {
-    .footer-a {
-        font-size: 12px;
-    }
-    .footer-li-item {
-        margin: 0 6px;
-    }
+    .footer-a { font-size: 12px; }
+    .footer-li-item { margin: 0 6px; }
 }
 
